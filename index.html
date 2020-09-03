@@ -1,0 +1,121 @@
+
+<html>
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Summarize Yourself</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.dropotron-1.0.js"></script>
+<script type="text/javascript" src="jquery.slidertron-1.0.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1>Summarize Yourself</h1>
+				<p>Resume, Curriculum Vitae and Biodata</p>
+			</div>
+		</div>
+		<div id="menu-wrapper">
+			<ul id="menu">
+				<li class="current_page_item"><a href="#"><span>Homepage</span></a></li>
+				<li><span>Biodata</span>
+					<ul>
+						<li class="first"> <a href="index">About</a> </li>
+						<li > <a href="about">Format & Example </a> </li>
+						<li class="last"> <a href="about">Templates</a> </li>
+					</ul>
+				</li>
+				<li><span>Resume</span>
+					<ul>
+						<li class="first"> <a href="index">About</a> </li>
+						<li > <a href="about">Format & Example </a> </li>
+						<li class="last"> <a href="about">Templates</a> </li>
+					</ul>
+				</li>
+				<li><span>Curriculam Vitae</span>
+					<ul>
+						<li class="first"> <a href="index">About</a> </li>
+						<li > <a href="about">Format & Example </a> </li>
+						<li class="last"> <a href="about">Templates</a> </li>
+					</ul>
+				</li>
+				
+				
+				<li><a href="#"><span>About</span></a></li>
+				
+				<li><a href="#"><span>Contact</span></a></li>
+			</ul>
+			<script type="text/javascript">
+			$('#menu').dropotron();
+		</script> 
+		</div>
+		<!-- end #menu -->
+		<div id="banner">
+			<div id="slider"> <a href="#" class="button previous-button">&lt;</a> <a href="#" class="button next-button">&gt;</a>
+				<div class="viewer">
+					<div class="reel">
+						<div class="slide">
+							
+							<a class="link" href="#">Full story ...</a><img src="images/makerpartypost.png" width="900" height="350" alt="" /></div>
+						<div class="slide">
+							
+							<a class="link" href="#">Full story ...</a><img src="images/bg.jpg" width="900" height="350" alt="" /></div>
+					</div>
+				</div>
+				<div class="indicator">
+					<ul>
+						<li class="active">1</li>
+						<li>2</li>
+					</ul>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$('#slider').slidertron({
+					viewerSelector: '.viewer',
+					reelSelector: '.viewer .reel',
+					slidesSelector: '.viewer .reel .slide',
+					advanceDelay: 3000,
+					speed: 'slow',
+					navPreviousSelector: '.previous-button',
+					navNextSelector: '.next-button',
+					indicatorSelector: '.indicator ul li',
+					slideLinkSelector: '.link'
+				});
+			</script> 
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="page">
+		<div id="content">
+			<div class="contentbg">
+				<div class="post">
+					<h2 class="title"><a href="#">Welcome!!</a></h2>
+					<div class="entry">
+						<p>
+						People use the words RESUME, C.V., and BIO-DATA interchangeably for the document highlighting skills, education, and experience that a candidate submits when applying for a job. 
+						On the surface level, all the three mean the same. However, there are intricate differences.<br><br>
+						<strong>Resume</strong> is a French word meaning "summary", and true to the word meaning, signifies a summary of one's employment, education, and other skills, used in applying for a new position.<br><br>
+						<strong>C.V</strong> is a Latin word meaning "course of life". Curriculum Vitae (C.V.) is therefore a regular or particular course of study pertaining to education and life.<br><br>
+						<strong>Bio-data</strong> includes applications made in specified formats as required by the company.
+						The things normally found in a resume, that is specific skills for the job in question comes last, and are seldom included.
+						</p>
+					</div>
+				</div>
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+		<!-- end #content -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page --> 
+</div>
+<div id="footer">
+	<p>2016. Untitled. All rights reserved. Design by RBC.</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>
